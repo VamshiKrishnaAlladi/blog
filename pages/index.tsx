@@ -1,10 +1,10 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home() {
     return (
         <div>
             <Head>
-                <title>Vamshi Krishna Alladi's Blog</title>
+                <title>Vamshi Krishna Alladi | Blog</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
@@ -14,5 +14,5 @@ export default function Home() {
                 </h1>
             </main>
         </div>
-    )
+    );
 }
